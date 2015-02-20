@@ -12,7 +12,7 @@ public class SampleTest {
 
     @Test
     public void shouldAddCorrectly() {
-        assertEquals(Integer.valueOf(8), Sample.add(1, 2));
+        assertEquals(Integer.valueOf(3), Sample.add(1, 2));
 
     }
 }

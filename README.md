@@ -17,6 +17,10 @@ Uses scala-maven-plugin (More info on http://davidb.github.io/scala-maven-plugin
 
 **Usage:**
 
+Run Maven goals first to resolve the plugins:
+
+`mvn clean install`
+
 To run Surefire:
 
 `mvn -Dcctest.goals="surefire:test" scala:cctest`
