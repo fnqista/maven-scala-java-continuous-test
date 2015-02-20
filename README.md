@@ -1,5 +1,5 @@
 # maven-scala-java-continuous-test
-POC for a continuous test facility (a-la-sbt) for mixed java and scala projects
+POC for a continuous test facility (a-la-sbt ~test) for mixed java and scala projects
 
 Uses scala-maven-plugin (More info on http://davidb.github.io/scala-maven-plugin/index.html and https://github.com/davidB/scala-maven-plugin)
 
