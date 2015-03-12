@@ -17,6 +17,7 @@
         <scalatest.scala.version>2.11</scalatest.scala.version>
         <junit.version>4.11</junit.version>
         <surefire.default.test.group>com.devboon.seed.test.group.QuickTests</surefire.default.test.group>
+        <scalatest.default.test.group>QuickTests</scalatest.default.test.group>
     </properties>
     <dependencies>
         <dependency>
@@ -119,6 +120,7 @@
                     <junitxml>.</junitxml>
                     <filereports>WDST TestSuite.txt</filereports>
                     <stdout>WDST</stdout>
+                    <tagsToInclude>${scalatest.default.test.group}</tagsToInclude>
                 </configuration>
             </plugin>
         </plugins>
