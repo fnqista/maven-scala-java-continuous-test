@@ -65,11 +65,14 @@
                 <configuration>
                     <recompileMode>incremental</recompileMode>
                     <verbose>true</verbose>
+                    <!-- Continuous Testing only accessible via CLI command "mvn scala:cctest" -->
+                    <ccTestGoals>surefire:test scalatest:test</ccTestGoals>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
                 <executions>
                     <execution>
                         <phase>compile</phase>
