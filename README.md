@@ -23,4 +23,4 @@ Run Maven goals first to resolve the plugins:
 
 To run Surefire and/or ScalaTest continuously:
 
-`mvn -Dcctest.goals="surefire:test scalatest:test" scala:cctest`
+`mvn scala:cctest`
