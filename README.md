@@ -21,10 +21,6 @@ Run Maven goals first to resolve the plugins:
 
 `mvn clean install`
 
-To run Surefire:
-
-`mvn -Dcctest.goals="surefire:test" scala:cctest`
-
-To run Surefire and ScalaTest:
+To run Surefire and/or ScalaTest continuously:
 
 `mvn -Dcctest.goals="surefire:test scalatest:test" scala:cctest`
