@@ -69,23 +69,6 @@
                     <ccTestGoals>surefire:test scalatest:test</ccTestGoals>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <source>${source.jdk.version}</source>
-                    <target>${target.jdk.version}</target>
-                </configuration>
-            </plugin>
             <!-- Test Plugins -->
             <!-- Surefire runs Java Junit tests -->
             <plugin>

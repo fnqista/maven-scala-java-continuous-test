@@ -7,8 +7,8 @@ Uses scala-maven-plugin (More info on http://davidb.github.io/scala-maven-plugin
 **Current features:**
 
 1. Runs tests in an infinite loop (thus, continuous test) making feedback almost instantaneous when modifying source and test codes.
-2. Uses surefire maven plugin to run Junits for java classes
-3. Incremental compile a-la-sbt. Saving a java/scala file will re-trigger the test.
+2. Uses surefire maven plugin to run Junit tests for java classes
+3. Incremental compile a-la-sbt - saving a java/scala file will re-trigger the tests.
 
 **To-do:**
 
@@ -25,6 +25,6 @@ To run Surefire:
 
 `mvn -Dcctest.goals="surefire:test" scala:cctest`
 
-To run Surefire and ScalaTest (pending, won't work at the moment):
+To run Surefire and ScalaTest:
 
 `mvn -Dcctest.goals="surefire:test scalatest:test" scala:cctest`
